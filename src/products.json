@@ -1,0 +1,93 @@
+[
+      {
+        "id": 1,
+        "title": "Chanel N°5",
+        "description": "Iconic perfume with a floral bouquet.",
+        "code": "CHN5",
+        "price": 250.0,
+        "status": true,
+        "stock": 10,
+        "category": "Chanel",
+        "thumbnails": ["chn5-thumbnail1.jpg", "chn5-thumbnail2.jpg"]
+      },
+      {
+        "id": 2,
+        "title": "Dior J'adore",
+        "description": "Luxurious fragrance with a blend of floral notes.",
+        "code": "DIOJDR",
+        "price": 180.0,
+        "status": true,
+        "stock": 5,
+        "category": "Dior",
+        "thumbnails": ["diojdr-thumbnail1.jpg", "diojdr-thumbnail2.jpg"]
+      },
+      {
+        "id": 3,
+        "title": "Tom Ford Black Orchid",
+        "description": "Opulent and sensual fragrance with dark floral notes.",
+        "code": "TFBO",
+        "price": 300.0,
+        "status": true,
+        "stock": 8,
+        "category": "Tom Ford",
+        "thumbnails": ["tfbo-thumbnail1.jpg", "tfbo-thumbnail2.jpg"]
+      },
+      {
+        "id": 4,
+        "title": "Creed Aventus",
+        "description": "Distinctive and sophisticated fragrance for men.",
+        "code": "CRDADV",
+        "price": 400.0,
+        "status": true,
+        "stock": 12,
+        "category": "Creed",
+        "thumbnails": ["crdadv-thumbnail1.jpg", "crdadv-thumbnail2.jpg"]
+      },
+      {
+        "id": 5,
+        "title": "Guerlain Shalimar",
+        "description": "Elegant and timeless fragrance with oriental notes.",
+        "code": "GRLSHL",
+        "price": 220.0,
+        "status": true,
+        "stock": 3,
+        "category": "Guerlain",
+        "thumbnails": ["grlshl-thumbnail1.jpg", "grlshl-thumbnail2.jpg"]
+      },
+      {
+        "id": 6,
+        "title": "Yves Saint Laurent Opium",
+        "description": "Intoxicating and spicy fragrance with a hint of mystery.",
+        "code": "YSLOPM",
+        "price": 280.0,
+        "status": true,
+        "stock": 7,
+        "category": "Yves Saint Laurent",
+        "thumbnails": ["yslopm-thumbnail1.jpg", "yslopm-thumbnail2.jpg"]
+      },
+      {
+        "id": 7,
+        "title": "Prada La Femme",
+        "description": "Sophisticated and sensual fragrance with floral notes.",
+        "code": "PRLFM",
+        "price": 190.0,
+        "status": true,
+        "stock": 6,
+        "category": "Prada",
+        "thumbnails": ["prlfm-thumbnail1.jpg", "prlfm-thumbnail2.jpg"]
+      },
+      {
+        "id": 8,
+        "title": "Givenchy Dahlia Divin",
+        "description": "Elegant fragrance with notes of golden fruit and musk.",
+        "code": "GVNDDVN",
+        "price": 210.0,
+        "status": true,
+        "stock": 9,
+        "category": "Givenchy",
+        "thumbnails": ["gvnddvn-thumbnail1.jpg", "gvnddvn-thumbnail2.jpg"]
+      }
+    ]
+  
+       
+  
