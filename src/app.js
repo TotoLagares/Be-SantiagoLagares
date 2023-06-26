@@ -5,17 +5,22 @@ import __dirname  from './utils.js';
 import { Server } from 'socket.io';
 import path from 'path';
 import handlebars from 'express-handlebars';
+import { Router } from 'express';
+
 
 
 const app = express();
 const listenPort = 8080;
+const router = Router();
 
 //settings
 app.engine('handlebars', handlebars.engine());
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + 'views');
 app.set('view engine', 'handlebars');
 
 app.use('/files', express.static(path.join(__dirname, 'public')))
+
+
 
 //middle
 app.use(express.json());
@@ -33,10 +38,3 @@ const server = app.listen(listenPort, () => {
 //io
 const io = new Server(server);
 
-io.on('connection', (socket) => {
-    console.log('Usuario conectado');
-
-    socket.on('disconnect', () => {
-        console.log('Usuario desconectado');
-    });
-});
